@@ -50,6 +50,38 @@
 #define ZD_SafeArea_TopMargin       (ZD_SCREENH_HEIGHT == 812.0 ? 88 : 64)     ///< 导航栏高度
 #define ZD_SafeArea_BottomMargin    (ZD_SCREENH_HEIGHT == 812.0 ? 34 : 0)      ///< 安全区域下方高度
 
+//-------------------系统版本判断-------------------------
+
+#define IS_OS_10_OR_LATER     (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"10.0"))
+#define IS_OS_9_OR_LATER     (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"9.0"))
+#define IS_OS_8_OR_LATER     (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"8.0"))
+#define IS_OS_7_OR_LATER     (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0"))
+#define IS_OS_6_OR_LATER     (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"6.0"))
+#define IS_OS_5_1_OR_LATER   (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"5.1"))
+#define IS_OS_5_0_1_OR_LATER (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"5.0.1"))
+#define IS_OS_5_0            (SYSTEM_VERSION_EQUAL_TO(@"5.0"))
+#define IS_OS_5_OR_LATER     (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"5.0"))
+#define IS_PRIOR_TO_OS_5     (SYSTEM_VERSION_LESS_THAN(@"5.0"))
+#define IS_OS_4_OR_LATER     (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"4.0"))
+#define IS_OS_32_OR_LATER    (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"3.2"))
+
+//-------------------设配判断-------------------------
+
+#define IS_SIMULATOR TARGET_IPHONE_SIMULATOR
+
+#define IS_RETINA (SCREEN_SCALE > 1) ? YES : NO
+#define IS_RETINA_3X (SCREEN_SCALE >= 3 ? YES : NO)
+
+#define IS_IPAD   (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPAD_1 (IS_IPAD && ![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IPHONE_6 (ZD_SCREENH_HEIGHT == 667.0)
+#define IS_IPHONE_6P (ZD_SCREENH_HEIGHT == 736.0)
+#define IS_IPHONE_X (ZD_SCREENH_HEIGHT == 812.0)
+#define IS_4IN (ZD_SCREENH_HEIGHT == 568)
+#define IS_3_5IN (ZD_SCREENH_HEIGHT == 480)
+
 //-------------------打印日志-------------------------
 //DEBUG  模式下打印日志,当前行
 #ifdef DEBUG
