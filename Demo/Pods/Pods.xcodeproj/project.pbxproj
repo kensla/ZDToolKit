@@ -95,7 +95,6 @@
 		6264B41014AD6DF8A15AD4DBF4F7010E /* YYWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 946AEC06CABFDFA5C4718AB34334AAB0 /* YYWebImage-dummy.m */; };
 		63A8D796532227CB222E4D9A643854C2 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C04923CA42096AE053F5873268B881BA /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		646F9609DBABD61D0C2345C58D2FD717 /* ZDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A681043B35D46ABD1BE5CEB62D3A314 /* ZDTextView.m */; };
-		64C68B0B5DE3DBE9E52CB5D9F29D9F15 /* YYDispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB286611F0AEFBC0FFF681096A3B99 /* YYDispatchQueuePool.m */; };
 		65842CFCAC39003AAA52B25FCA6B9202 /* ZDGuardUIKitOnMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B398983CF49593DA964C7740D6DAE44 /* ZDGuardUIKitOnMainThread.m */; };
 		67003FBF50076F15253E950C0713CA5B /* ZDFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B5447FC7D63ED9EFCC2B3903E42E9D72 /* ZDFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		692431C1AE19044390A50D5985FAC018 /* ZDProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EF8D8FF3C76730C09FFD905DAF5999 /* ZDProxy.m */; };
@@ -159,7 +158,6 @@
 		A2849501217CC277CB8C5AEA770D7855 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EAC73B6E2ABFD6D29AF9BDD5E3065F /* YYCache-dummy.m */; };
 		A2B057FCD905A11C22672283D062C210 /* NSString+ZDUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D66263AB55CE07D6F5924BC1F173D5 /* NSString+ZDUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3F08C382F6313378DD356BBCCF702FA /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD31084F47BC726766B985F1A6A2C9 /* UIImage+ForceDecode.m */; };
-		A3F3EB76BD117F1D1EB4158267FC4EB8 /* YYDispatchQueuePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A157BF35F7CF48175D02443447923B /* YYDispatchQueuePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A45E696F4E0881D2B5FA6E4F49F3EC0E /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046E97FEA0F8318BA2CCAFC5FBA582D /* YYDiskCache.m */; };
 		A5B444D998C6DDE549529B0C34BC7042 /* SDWebImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAAE8BE03748706F9FEE1660EE4B374 /* SDWebImageFrame.m */; };
 		A6DBA8A18CC5CD2488B75559808BE531 /* Pods-ZDToolKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B187FE7714A88CC14C2A73B9C9386CB /* Pods-ZDToolKitDemo-dummy.m */; };
@@ -343,7 +341,6 @@
 		21BE0189A7841F3AFB89414B8B653AFB /* UIImage+ZDUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZDUtility.h"; path = "ZDToolKit/ZDCategory/UIKit/UIImage+ZDUtility.h"; sourceTree = "<group>"; };
 		22C7A996816EFB5D38D05EA674822069 /* Pods-ZDToolKitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDToolKitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		22ED2E6CB627C7D29D6AC4D510187657 /* UILabel+ZDUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+ZDUtility.m"; path = "ZDToolKit/ZDCategory/UIKit/UILabel+ZDUtility.m"; sourceTree = "<group>"; };
-		22FB286611F0AEFBC0FFF681096A3B99 /* YYDispatchQueuePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDispatchQueuePool.m; path = ZDToolKit/ZDTools/YYDispatchQueuePool.m; sourceTree = "<group>"; };
 		23BF8165009563F3C4C5ADCF4A6E3684 /* NSTimer+ZDUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+ZDUtility.m"; path = "ZDToolKit/ZDCategory/Foundation/NSTimer+ZDUtility.m"; sourceTree = "<group>"; };
 		244151A3A307BCC9D11FBD75D4B3550D /* YYImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCache.h; path = YYWebImage/YYImageCache.h; sourceTree = "<group>"; };
 		25A710E2268B345A72F766D9B4AA3FEE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
@@ -369,7 +366,6 @@
 		405D9E984C44764C1DB84656A0D359B4 /* CALayer+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+YYWebImage.m"; path = "YYWebImage/Categories/CALayer+YYWebImage.m"; sourceTree = "<group>"; };
 		4189F8C0C7708ADBDB26641D0CAF0D9E /* UIView+ZDCollapsibleConstraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZDCollapsibleConstraints.h"; path = "ZDToolKit/ZDAutoLayout/UIView+ZDCollapsibleConstraints.h"; sourceTree = "<group>"; };
 		427725DD1B1E06C156CAF141A8902D8E /* YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImage.h; path = YYWebImage/YYWebImage.h; sourceTree = "<group>"; };
-		42A157BF35F7CF48175D02443447923B /* YYDispatchQueuePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDispatchQueuePool.h; path = ZDToolKit/ZDTools/YYDispatchQueuePool.h; sourceTree = "<group>"; };
 		4432C2DA6BEB1DE2C18E8A021197D3D7 /* libYYImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYYImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		463AF950EA24DAD6E128333FE538FB61 /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
 		47C029EC932FCF884EC9E24AF80CD41D /* NSData+ZDUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ZDUtility.h"; path = "ZDToolKit/ZDCategory/Foundation/NSData+ZDUtility.h"; sourceTree = "<group>"; };
@@ -845,8 +841,6 @@
 			children = (
 				9B5AC1F5FF8550CEACC016CC5CCC2D87 /* MAKVONotificationCenter.h */,
 				3B7AF144DCD1313EEAF157EE6E5C22DC /* MAKVONotificationCenter.m */,
-				42A157BF35F7CF48175D02443447923B /* YYDispatchQueuePool.h */,
-				22FB286611F0AEFBC0FFF681096A3B99 /* YYDispatchQueuePool.m */,
 				F294B551E42CF0F5CF3BFEE482369B36 /* ZDBannerScrollView.h */,
 				33E9D69F070BFCF059AF7B6EAFA5ACD9 /* ZDBannerScrollView.m */,
 				B5447FC7D63ED9EFCC2B3903E42E9D72 /* ZDFileManager.h */,
@@ -1292,7 +1286,6 @@
 				DD657966BAA54828FB1916C0CF780E3F /* UIViewController+ZDUtility.h in Headers */,
 				79AEB49AD80C7F6F5A702D2F27F0C537 /* UIWebView+ZDExtend.h in Headers */,
 				8F2291A3956CA564A75618438BD31594 /* WKWebView+ZDExtend.h in Headers */,
-				A3F3EB76BD117F1D1EB4158267FC4EB8 /* YYDispatchQueuePool.h in Headers */,
 				585C78D6F23166B10BB701108C01E14D /* ZDActionLabel.h in Headers */,
 				CDEA79455E948EB8EA2DEA2DDF08AFC5 /* ZDBannerScrollView.h in Headers */,
 				A8F4857243A3C8FFDD9F0D6E61E873BF /* ZDBlockDescription.h in Headers */,
@@ -1557,7 +1550,6 @@
 				9D657822E8D320DF74C9B7ED8FEF1BD4 /* UIViewController+ZDUtility.m in Sources */,
 				1389113676AF231BA9EE940D2BAED599 /* UIWebView+ZDExtend.m in Sources */,
 				1EC63BC1351F76FD224D3C967A8C1C70 /* WKWebView+ZDExtend.m in Sources */,
-				64C68B0B5DE3DBE9E52CB5D9F29D9F15 /* YYDispatchQueuePool.m in Sources */,
 				963C41EA6DBDB9ED0425441D89E1FE60 /* ZDActionLabel.m in Sources */,
 				6A42BF0EF047E0FE05D8DFFBEB588376 /* ZDBannerScrollView.m in Sources */,
 				54CF36D763D970EAC460DD7FE80EE362 /* ZDBlockDescription.m in Sources */,
